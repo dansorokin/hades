@@ -1,0 +1,282 @@
+@font-face {
+	font-family: 'Candara'; 
+	src: url(../font/candara.ttf); 
+}
+@font-face {
+	font-family: 'Dsgreece'; 
+	src: url(../font/dsgreece.ttf); 
+}
+
+body{
+    margin : 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+.con1{
+    max-width: 100%;
+    position: relative;
+    background-color: #f1ede4;
+    height: 200vh;
+}
+.title1{
+    color: #252523;
+    z-index: 10;
+    font-size: 70px;
+    position: absolute;
+    top: 5vh;
+    right: 30vh;
+    font-family: 'Dsgreece';
+}
+.text1{
+    color: #252523;
+    font-family: 'Candara'; 
+    font-size: 27px;
+    position: absolute;
+    top: 35vh;
+    left: 90vh;
+}
+.back1{
+    max-width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0vh;
+    left: 0;
+}
+.gomer{
+    max-width: 334px;
+    z-index: 2;
+    position: absolute;
+    z-index: 1;
+    top: 20vh;
+    right: 200px;
+}
+.vetki1{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+}
+.vetki2{
+    position: absolute;
+    z-index: 10;
+    top: 65vh;
+    left: -5vh;
+    width: 300px;
+    height: 600px;
+}
+.granat{
+    position: absolute;
+    z-index: 10;
+    width: 300px;
+    height: 600px;
+    top: 51vh;
+    left: 52vh;
+}
+.arpha{
+    position: absolute;
+    z-index: 10;
+    width: 420px;
+    height: 600px;
+    top: 21vh;
+    left: 20vh;
+}
+.text2{
+    z-index: 5;
+    color: #f4f4f4;
+    font-family: 'Candara'; 
+    font-size: 27px;
+    position: absolute;
+    top: 110vh;
+    left: 90vh;
+}
+.text3{
+    z-index: 5;
+    color: #f4f4f4;
+    font-family: 'Candara'; 
+    font-size: 27px;
+    position: absolute;
+    top: 170vh;
+    left: 90vh;
+}
+.book{
+    z-index: 10;
+    position: absolute;
+    top: 120vh;
+}
+.con2{
+    background-color: #f1ede4;
+    position: relative;
+    height: 210vh;
+}
+.people{
+    z-index: 10;
+    position: absolute;
+    top: 90vh;
+    left: 20vh;
+}
+.con3{
+    background: url(../img/uzorback.png);
+    height: 10vh;
+}
+.con4{
+    width: 100%;
+    position: relative;
+    background-color: #27272d;
+    height: 100vh;
+}
+.chel{
+    position: absolute;
+    z-index: 11;
+}
+.lot7{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.lot8{
+    position: absolute;
+    z-index: 10;
+    top: 0vh;
+    right: 0;
+}
+.lot9{
+    position: absolute;
+    z-index: 10;
+    top: 20vh;
+    left: 0;
+}
+.pattern {
+    position: absolute;
+    z-index: 20;
+    top: 200vh;
+    width: 300%;
+    height: 100px;
+    z-index: -1;
+    animation: scrollPattern 10s linear infinite;
+    animation-play-state: paused; /* изначально пауза */
+    will-change: transform;
+  }
+  @keyframes scrollPattern {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-3000px);
+    }
+  }
+.con5{
+    position: relative;
+    height: 250vh;
+    background-color: #c5ae73;
+}
+.zhelt{
+    position: absolute;
+    right: 5vh;
+}
+.ten{
+    position: absolute;
+    top: 30vh
+}
+.back2{
+    position: absolute;
+    top: 97vh;
+}
+.lot10{
+    position: absolute;
+    top: 115vh;
+    right: 10vh;
+}
+.lot11{
+    position: absolute;
+    top: 130vh;
+    left: 70vh;
+}
+.lot12{
+    position: absolute;
+    top: 120vh;
+    left: 0vh;
+}
+.cheliki{
+    position: absolute;
+    top: 142vh;
+    left: 30vh;
+}
+.con6{
+    position: relative;
+    height: 110vh;
+    background: #924a45;
+}
+.aid{
+    position: absolute;
+    top: 2vh;
+    z-index: 10;
+}
+.kolonna1{
+    position: absolute;
+    left: 0;
+}
+.kolonna2{
+    position: absolute;
+    right: 0;
+}
+.con7{
+    position: relative;
+    background-color: #f3ede4;
+    height: 265vh;
+}
+.elisium {
+    position: absolute;
+    top: 180vh;
+    left: -5vh;
+}
+.tartar{
+    position: absolute;
+    top: 180vh;
+    right: -5vh;
+}
+.lot13{
+    position: absolute;
+    top: 70vh;
+    z-index: 10;
+}
+.con8{
+    position: relative;
+    background-color: #f3ede4;
+    height: 150vh;
+}
+.lot14{
+    z-index: 10;
+    position: absolute;
+    top:0;
+    right: 0;
+    top: 20vh;
+}
+.lot15{
+    z-index: 10;
+    position: absolute;
+    top:0;
+    left: 0;
+    top: 20vh;
+}
+.zeus{
+    position: absolute;
+    top: 30vh;
+    left: 40vh;
+    z-index: 10;
+}
+.zeusback{
+    position: absolute;
+    top: 30vh;
+    left: 40vh;
+}
+.icon{
+    top: 80vh;
+    right: 30vh;
+    position: absolute;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
