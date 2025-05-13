@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Candara'; 
-	src: url(../font/candara.ttf); 
+	src: url(../../font/candara.ttf); 
 }
 @font-face {
 	font-family: 'Dsgreece'; 
-	src: url(../font/dsgreece.ttf); 
+	src: url(../../font/dsgreece.ttf); 
 }
 
 body{
@@ -30,7 +30,7 @@ body{
 .text1{
     color: #252523;
     font-family: 'Candara'; 
-    font-size: 27px;
+    font-size: 25px;
     position: absolute;
     top: 35vh;
     left: 90vh;
@@ -86,7 +86,7 @@ body{
     z-index: 5;
     color: #f4f4f4;
     font-family: 'Candara'; 
-    font-size: 27px;
+    font-size: 25px;
     position: absolute;
     top: 110vh;
     left: 90vh;
@@ -95,7 +95,7 @@ body{
     z-index: 5;
     color: #f4f4f4;
     font-family: 'Candara'; 
-    font-size: 27px;
+    font-size: 25px;
     position: absolute;
     top: 170vh;
     left: 90vh;
@@ -108,7 +108,38 @@ body{
 .con2{
     background-color: #f1ede4;
     position: relative;
-    height: 210vh;
+    height: 220vh;
+}
+.text4{
+  color: #252523;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 77vh;
+  left: 74vh;
+}
+.text5{
+  color: #252523;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 87vh;
+  left: 103vh;
+}
+.text6{
+  color: #252523;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 110vh;
+  left: 103vh;
+}
+.granat{
+  position: absolute;
+  top: 177vh;
+  left: 20vh;
+  width: 145px;
+  height: 113px;
 }
 .people{
     z-index: 10;
@@ -118,16 +149,35 @@ body{
 }
 .con3{
     background: url(../img/uzorback.png);
-    height: 10vh;
+    height: 13.7vh;
 }
 .con4{
     width: 100%;
     position: relative;
     background-color: #27272d;
-    height: 100vh;
+    height: 107vh;
+}
+.text7{
+  color: #f1ede4;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 15vh;
+  left: 37vh;
+  z-index: 21;
+}
+.text8{
+  color: #f1ede4;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 40vh;
+  right: 32vh;
+  z-index: 21;
 }
 .chel{
     position: absolute;
+    top: 10vh;
     z-index: 11;
 }
 .lot7{
@@ -168,36 +218,81 @@ body{
     }
   }
 .con5{
+    overflow: hidden;
+    transition: background-color 0.5s ease; 
     position: relative;
-    height: 250vh;
+    height: 243vh;
     background-color: #c5ae73;
 }
+.con5::before {
+    content: "";
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, #27272d 0%, #27272d 100%);
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.6s ease;
+    z-index: 0;
+    pointer-events: none;
+  }
+  
+  .image-container1,
+  .image-container2 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Анимация заливки при наведении */
+  .image-container1:hover ~ .image-container2,
+  .image-container1:hover {
+    z-index: 1;
+  }
+
+
 .zhelt{
     position: absolute;
     right: 5vh;
 }
 .ten{
     position: absolute;
-    top: 30vh
+    top: 14vh
+}
+.text9{
+  color: #f1ede4;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 75vh;
+  right: 37vh;
+  z-index: 21;
 }
 .back2{
     position: absolute;
     top: 97vh;
+    z-index: 9;
+    pointer-events: none;
 }
 .lot10{
     position: absolute;
     top: 115vh;
-    right: 10vh;
+    right: 0vh;
+    z-index: 10;
+    pointer-events: none;
 }
 .lot11{
     position: absolute;
-    top: 130vh;
-    left: 70vh;
+    top: 131.9vh;
+    left: 69vh;
+    z-index: 20;
+    pointer-events: none;
 }
 .lot12{
     position: absolute;
     top: 120vh;
     left: 0vh;
+    z-index: 10;
+    pointer-events: none;
 }
 .cheliki{
     position: absolute;
@@ -206,46 +301,162 @@ body{
 }
 .con6{
     position: relative;
-    height: 110vh;
+    height: 130vh;
     background: #924a45;
 }
 .aid{
     position: absolute;
-    top: 2vh;
+    top: 10vh;
+    left: -20vh;
     z-index: 10;
 }
-.kolonna1{
+
+.balka{
     position: absolute;
-    left: 0;
+    top: 0;
 }
-.kolonna2{
-    position: absolute;
-    right: 0;
+.text10{
+  color: #f1ede4;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 30vh;
+  right: 45vh;
+  z-index: 21;
+}
+.text11{
+  color: #f1ede4;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 137vh;
+  left: 40vh;
+  z-index: 21;
+}
+.text12{
+  color: #27272d;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 165vh;
+  left: 40vh;
+  z-index: 21;
+}
+.text13{
+  color: #27272d;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 127vh;
+  right: 30vh;
+  z-index: 21;
+}
+.text14{
+  color: #27272d;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 150vh;
+  right: 15vh;
+  z-index: 21;
+}
+.text15{
+  color: #27272d;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 205vh;
+  right: 87vh;
+  z-index: 21;
 }
 .con7{
     position: relative;
     background-color: #f3ede4;
     height: 265vh;
 }
-.elisium {
+.elisium1 {
     position: absolute;
     top: 180vh;
-    left: -5vh;
+    left: -10vh;
 }
-.tartar{
+.elisium2 {
+  position: absolute;
+  top: 180vh;
+  left: -10vh;
+  opacity: 0;
+  transition:  opacity 0.7s;
+}
+.elisium:hover .elisium2,.elisium:hover .eltxt {
+  opacity: 1;
+  
+}
+.eltxt{
+  position: absolute;
+  top: 220vh;
+  left: 25vh;
+  opacity: 0;
+  transition: 1s;
+  font-family: 'Dsgreece';
+  color: #f3ede4;
+  font-size: 70px;
+}
+.tartar1{
     position: absolute;
     top: 180vh;
-    right: -5vh;
+    right: -10vh;
 }
+.tartar2{
+  position: absolute;
+  top: 180vh;
+  opacity: 0;
+  right: -10vh;
+  transition:  opacity 0.7s;
+}
+.tartxt{
+  position: absolute;
+  top: 222vh;
+  right: 25vh;
+  opacity: 0;
+  transition: 1s;
+  font-family: 'Dsgreece';
+  color: #f3ede4;
+  font-size: 70px;
+}
+
+.tartar:hover .tartar2,.tartar:hover .tartxt {
+  opacity: 1;
+  
+}
+
 .lot13{
     position: absolute;
     top: 70vh;
+    left: -10vh;
     z-index: 10;
+    pointer-events: none;
 }
 .con8{
     position: relative;
     background-color: #f3ede4;
-    height: 150vh;
+    height: 110vh;
+}
+.text16{
+  color: #27272d;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 44vh;
+  right: 34vh;
+  z-index: 21;
+}
+.text17{
+  color: #27272d;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 60vh;
+  right: 32.5vh;
+  z-index: 21;
 }
 .lot14{
     z-index: 10;
@@ -272,6 +483,26 @@ body{
     top: 30vh;
     left: 40vh;
 }
+.icon-item{
+  display: inline-block;
+  animation: shake 1.5s infinite ease-in-out;
+}
+.icon-item:hover {
+  animation: none;
+}
+.icon-item img {
+  transition: transform 0.5s ease;
+}
+.icon-item:hover img{
+  transform: translateY(-20px);
+  
+}
+.icon-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .icon{
     top: 80vh;
     right: 30vh;
@@ -279,4 +510,341 @@ body{
     width: 500px;
     display: flex;
     justify-content: space-between;
+}
+.icontxt {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  bottom: -30px; /* чуть ниже картинки */
+  color: #27272d;
+  font-family: 'Candara'; 
+  padding: 4px 8px;
+  font-size: 22px;
+  pointer-events: none;
+}
+.icon-item:hover .icontxt {
+  opacity: 1;
+}
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+  75% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+.arka{
+    position: absolute;
+    top: 56vh;
+}
+.con9{
+    position: relative;
+    background-color: #f3ede4;
+    height: 150vh;
+}
+.text18{
+  color: #27272d;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 20vh;
+  left: 70vh;
+  z-index: 21;
+}
+.text19{
+  color: #27272d;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 35vh;
+  left: 65vh;
+  z-index: 21;
+}
+.son1{
+  color: #27272d;
+  font-family: 'Candara'; 
+  font-size: 24px;
+  position: absolute;
+  top: 20vh;
+  left: 65vh;
+  display: none;
+}
+.back4{
+    position: absolute;
+    top: 50vh;
+}
+.lot16{
+    z-index: 10;
+    position: absolute;
+    top:0;
+    left: 0;
+    top: 40vh;
+}
+
+.lot18{
+    position: absolute;
+    right: 72vh;
+    top: 60vh;
+    z-index: 20;
+    transition: 1s;
+}
+.lot18:hover{
+    transform: scale(1.05);
+}
+.lot19:hover{
+    transform: scale(1.05);
+}
+.lot20:hover{
+    transform: scale(1.05);
+}
+.scam{
+    position: absolute;
+    top: 92vh;
+    left: 48vh;
+    z-index: 10vh;
+}
+.tron{
+    position: absolute;
+    top: 70vh;
+    left: 80vh;
+    z-index: 12;
+}
+.lot19{
+    position: absolute;
+    right: 50vh;
+    top: 65vh;
+    z-index: 11;
+    transition: 1s;
+}
+.lot20{
+    position: absolute;
+    right: 115vh;
+    top: 65vh;
+    z-index: 11;
+    transition: 1s;
+}
+.lot20{
+    position: absolute;
+    z-index: 11;
+}
+.footer{
+    height: 20vh;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease-out, transform 1s ease-out;
+  }
+.fade-in1 {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 10s ease-out, transform 5s ease-out;
+}
+.fade-in1.visible2 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+.fade-in.visible1 {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .gora1{
+    position: absolute;
+    width: 1800px;
+    top: 50vh;
+    right: 120vh;
+  }
+  .gora2{
+    position: absolute;
+    top: 20vh;
+    left: 100vh;
+  }
+  
+  .kolonna1,
+  .kolonna2 {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    opacity: 0;
+  }
+  
+  /* Левый элемент — заезжает справа налево */
+  .fade-in-left {
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    transform: translateX(-100px);
+  }
+  
+  .fade-in-left.visible {
+    opacity: 1;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    transform: translateX(0);
+  }
+  
+  /* Правый элемент — заезжает слева направо */
+  .fade-in-right {
+    transform: translateX(100px);
+  }
+  
+  .fade-in-right.visible {
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    opacity: 1;
+    transform: translateX(0);
+    
+  }
+  
+  .kolonna1 {
+    left: 0;
+  }
+  
+  .kolonna2 {
+    right: 0;
+  }
+.chelik_bel{
+    position: absolute;
+    top: 139vh;
+    left: 27vh;
+    z-index: 10;
+}
+.chelik_chern{
+    position: absolute;
+    top: 139vh;
+    right: 27vh;
+    z-index: 10;
+}
+.image-container1 {
+    position: relative;
+    display: inline-block;
+    transition: 1s;
+  }
+  
+  .chelik-img1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 1s;
+    
+  }
+  
+  .hover-text1 {
+    width: 500px;
+    position: absolute;
+    top: 15vh;
+    left: 55vh;
+    font-size: 23px;
+    font-family: "Candara";
+    color: #484848;
+    opacity: 0;
+    z-index: 20;
+    transition: opacity 0.4s ease;
+    pointer-events: none
+  }
+  
+  .image-container1:hover .hover-text1, .image-container1:hover .hover-image1 {
+    opacity: 1;
+  }
+  .chelik-img1:hover{
+    transform: scale(1.05);
+  }
+
+
+  .image-container2 {
+    position: absolute;
+    display: inline-block;
+    transition: 1s;
+  }
+  
+  .chelik-img2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 1s;
+  }
+  
+  .hover-text2 {
+    width: 500px;
+    position: absolute;
+    top: 15vh;
+    left: -59vh;
+    font-size: 23px;
+    font-family: "Candara";
+    color: #d5cbba;
+    opacity: 0;
+    z-index: 20;
+    transition: opacity 0.4s ease;
+    pointer-events: none
+  }
+  .hover-image1 {
+    position: absolute;
+    top: -5vh;
+    opacity: 0;
+    right: -74.8vh;
+    transition: opacity 0.4s ease;
+    z-index: 5;
+    pointer-events: none;
+  }
+  
+  .hover-image2 {
+    position: absolute;
+    top: -5vh;
+    opacity: 0;
+    right: 40.7vh;
+    transition: opacity 0.4s ease;
+    z-index: 5;
+    pointer-events: none;
+  }
+  .image-container2:hover .hover-text2, .image-container2:hover .hover-image2{
+    opacity: 1;
+  }
+  .chelik-img2:hover{
+    transform: scale(1.05);
+  }
+
+.tabl0{
+    z-index: 1;
+    position: absolute;
+    top: 134vh;
+    left: 66.5vh;
+}
+.ghost1, .ghost2,  .ghost3 {
+    position: absolute;
+    opacity: 0;
+    transition: transform 1s ease, opacity 0.3s ease;
+    z-index: 20;
+    transform: translateX(80px);
+  }
+  
+  /* Индивидуальные позиции */
+  .ghost1 { top: 135vh; right: 70vh;}
+  .ghost2 { top: 120vh; right: 20vh; }
+  .ghost3 { top: 135vh; right: 5vh; }
+
+  .ghost-animate {
+    opacity: 1;
+    transform: translateX(-40px);
+  }
+.con10{
+  height: 200vh;
+  background-color: #f1ede4;
+  position: relative;
+}
+.lot23{
+  position: absolute;
+  top: 20vh;
+  left: 0;
+  z-index: 11;
+}
+.back5{
+  position: absolute;
+  top:10vh;
+  left: 0;
+}
+.cheliki2{
+  position: absolute;
+  top: 5vh;
+  right: 40vh;
+}
+.lot21{
+  position: absolute;
+  z-index: 20;
+  bottom: 0;
+
 }
